@@ -1,0 +1,12 @@
+{
+    "package_name" : "luajit2",
+	"github_url":"https://github.com/openresty/luajit2.git",
+    "build_script" : "luajit2_v2.1.0-beta3.sh",
+    
+    "v2.1.0-beta*" : {
+        "patches": {
+            "PATCH": "https://raw.githubusercontent.com/ppc64le/build-scripts/master/l/luajit2/Luajit2_v2.1.0-beta3.patch"
+        },
+        "build_script" : "luajit2_v2.1.0-beta3.sh"
+    }
+}
